@@ -4,16 +4,16 @@ import List from '../components/List.vue'
 
 const routes = [
 	{
-		path: '/',
+		path: '/jersey/',
 		component: Home
 	},
 	{
-		path: '/detail',
+		path: '/jersey/detail',
 		component: Detail
 	// eslint-disable-next-line no-trailing-spaces
 	}, 
 	{
-		path: '/list',
+		path: '/jersey/list',
 		// eslint-disable-next-line comma-dangle
 		component: List,
 	}
